@@ -42,6 +42,7 @@ function generatePassword() {
           include = include.concat(SpecialChar);
           stored.push(selectedLetter);
           }
+          
 
     for (var i = 0; i < length - stored.length; i++) {
       var random = Math.floor(Math.random() * Lowercaseletters.length);
